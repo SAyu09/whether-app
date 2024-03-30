@@ -1,0 +1,62 @@
+/* Location.style.css */
+.container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .form-control {
+    border-radius: 20px;
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    transition: border-color 0.3s ease;
+  }
+  
+  .form-control:focus {
+    border-color: #ffc107;
+    outline: none;
+  }
+  
+  .btn {
+    border-radius: 20px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #ffc107;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #ffca28;
+  }
+  
+  .alert {
+    border-radius: 20px;
+    padding: 15px;
+    margin-top: 10px;
+    font-size: 16px;
+  }
+  
+  .alert-danger {
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+    color: #721c24;
+  }
+  
+  .alert-danger strong {
+    font-weight: bold;
+  }
+  
+  .alert-danger a {
+    color: #721c24;
+    font-weight: bold;
+    text-decoration: underline;
+  }
+  
+  .alert-danger a:hover {
+    text-decoration: none;
+  }
+  
